@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  parent
+    parent
 </template>
 
 <style scoped>

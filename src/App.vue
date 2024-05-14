@@ -1,9 +1,13 @@
 <template>
     <div id="outer">
         <div style="margin-bottom: 20px;margin-top: 20px">
-            <RouterLink to="/parent">Parent</RouterLink>
+            <RouterLink to="/">Home</RouterLink>
             &nbsp;|&nbsp;
             <RouterLink to="/about">About</RouterLink>
+            &nbsp;|&nbsp;
+            <RouterLink to="/parent">Parent</RouterLink>
+            &nbsp;|&nbsp;
+            <RouterLink to="/parent/child">Child</RouterLink>
         </div>
 
         <RouterView></RouterView>
